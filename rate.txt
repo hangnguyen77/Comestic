@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Danh gia va nhan xet</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<style type="text/css">
+			.star-rating {
+		  line-height:32px;
+		  font-size:1.25em;
+		}
+
+		.star-rating .fa-star{color: yellow;}
+
+		button[type=submit] {
+	    width: 20%;
+	    background-color: #4CAF50;
+	    color: white;
+	    padding: 14px 20px;
+	    margin: 8px 0;
+	    border: none;
+	    border-radius: 4px;
+	    cursor: pointer;
+	}
+		</style>
+
+
+		
+</head>
+<body>
+	<div class="container">
+		<h2>Đánh giá và nhận xét về sản phẩm</h2>
+		<p>Xin vui lòng chia sẻ nhận xét về sản phẩm này</p>
+		<p>Đánh giá về sản phẩm này</p>
+		 <div class="row">
+		      <div class="star-rating">
+		        <span class="fa fa-star-o" data-rating="1"></span>
+		        <span class="fa fa-star-o" data-rating="2"></span>
+		        <span class="fa fa-star-o" data-rating="3"></span>
+		        <span class="fa fa-star-o" data-rating="4"></span>
+		        <span class="fa fa-star-o" data-rating="5"></span>
+		        <input type="hidden" name="whatever3" class="rating-value" value="4.1">
+		    </div>
+		  </div>
+		  <div class="form-group">
+		  	<label for="tieude">Tiêu đề đánh giá</label>
+		  	<input type="text" class="form-control" name="tde">
+		  </div>
+		  <div class="form-group">
+		  	<label for="comment">Mô tả đánh giá</label>
+		  	<textarea class="form-control" rows="5" id="comment"></textarea>
+		  </div>
+		  <button type="submit" class="btn btn-default" color="blue">Gửi nhận xét</button>
+	</div>
+
+
+</body>
+</html>
