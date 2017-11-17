@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Danh gia va nhan xet</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="../src/rating.css" type="text/css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/kartik-v/bootstrap-star-rating/master/css/star-rating.min.css">
+	  <script type="text/javascript" src="../src/rating.js"></script>
+	 
+		
+</head>
+<body>
+	<div class="container">
+		<h2>Đánh giá và nhận xét về sản phẩm</h2>
+		<p>Xin vui lòng chia sẻ nhận xét về sản phẩm này</p>
+		<p>Đánh giá về sản phẩm này</p>
+		<div class="star-rating">
+        <span class="fa fa-star-o" data-rating="1"></span>
+        <span class="fa fa-star-o" data-rating="2"></span>
+        <span class="fa fa-star-o" data-rating="3"></span>
+        <span class="fa fa-star-o" data-rating="4"></span>
+        <span class="fa fa-star-o" data-rating="5"></span>
+        <input type="hidden" name="whatever1" class="rating-value" value="2.56">
+      	</div>
+		  <div class="form-group">
+		  	<label for="tieude">Tiêu đề đánh giá</label>
+		  	<input type="text" class="form-control" id="tde">
+		  </div>
+		  <div class="form-group">
+		  	<label for="comment">Mô tả đánh giá</label>
+		  	<textarea class="form-control" rows="5" id="comment"></textarea>
+		  </div>
+		  <button type="submit" class="btn btn-default" onclick="alert('Bạn đã đánh giá sản phẩm')"  >Gửi nhận xét</button>
+	</div>
+
+
+</body>
+</html>
